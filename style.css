@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(211, 247, 235);
+    border-radius: 20px;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+h2 {
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(82, 13, 13);
+}
+
+li {
+    padding: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+}
+
+.playArea {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.gridRow {
+    flex-grow: 1;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-content: center;
+}
+
+.gridItem {
+    text-align:center;
+    border: 1px;
+    flex-grow: 1;
+    border-style: solid;
+}
