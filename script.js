@@ -8,11 +8,11 @@ let x=document.getElementsByClassName("inputSize")[0];
 x.addEventListener("click",(e)=>inputSize());
 
 function inputSize(){
-     size=Number(prompt("Enter size of grid"));
+     size=Number(prompt("Enter size of grid (1-100)"));
      console.log("A"+size);
-     while (size<0 || size>100 || !(size==NaN)){
-        console.log(typeof(size));
+     while (size<1 || size>100 || isNaN(size)){
         size=Number(prompt("Please enter a value between 1-100"));
+        alert(typeof(size)+"A"+size);
      }
      createGrid(size);
 }
