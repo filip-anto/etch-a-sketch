@@ -3,14 +3,14 @@ body {
     padding: 0px;
 }
 
-.nav-bar {
+.title-bar {
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     background-color: rgb(211, 247, 235);
-    border-radius: 20px;
+    margin-bottom:50px;
 }
 
 ul {
@@ -22,7 +22,9 @@ ul {
 h2 {
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(82, 13, 13);
+    color:#F8CBD1;
+    text-shadow: 2px 2px rgb(179, 179, 219);
+    font-size:50px;
 }
 
 li {
@@ -33,10 +35,15 @@ li {
 
 .container {
     display: flex;
-    height: 200px;
+    justify-content: center;
+    gap:80px;
 }
 
 .playArea {
+    border:50px;
+    border-style:solid;
+    border-radius:20px;
+    border-color: #F4C2C2;
     display: flex;
     flex-direction: column;
     height: 500px;
@@ -55,4 +62,16 @@ li {
     border: 1px;
     flex-grow: 1;
     border-style: solid;
+}
+
+.options{
+    border-radius:50px;
+    background-color: #89CFF0;
+    padding-left:50px;
+    padding-top:100px;
+    padding-right:50px;
+    display:flex;
+    text-align:center;
+    flex-direction: column;
+    gap:50px;
 }
