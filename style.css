@@ -75,3 +75,15 @@ li {
     flex-direction: column;
     gap:50px;
 }
+
+button{
+    background-color: rgb(211, 247, 235);
+    border-style: solid;
+    border-radius: 20px;
+    padding:20px;
+    font-size:20px;
+    color:#f0acac;
+}
+button:hover{
+    color:#89CFF0;
+}
